@@ -14,7 +14,7 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sigmar+One|Squada+One|Homenaje|Denk+One|Unica+One|Teko:400,500,600|Cabin+Sketch:700|Frijole|Skranji|Averia+Libre:400,700|Keania+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/signup.css" />
@@ -38,9 +38,11 @@
                 <p>Sign up to win our pre-launch prizes.</p>
               </div>
               <div class="signup-form">
-                <form action="" method="post" id="" name="" class="validate" target="_blank">
-                   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="name@example.com">
-                   <div class="submit"><input type="submit" value="Get early access" name="subscribe" id="mc-embedded-subscribe" class="matoot-form-button"></div>
+                <form class="validate matoot-element matoot-form">
+                   <input type="email" value="" name="email" class="required email" id="mce-EMAIL" placeholder="name@example.com">
+                   <div class="submit">
+                   <a class="matoot-form-button" name="subscribe" id="mc-embedded-subscribe">Get early access</a>
+                   </div>
                    <div id="response" class="matoot-form-result"></div>
                 </form>
               </div>
@@ -64,6 +66,9 @@
      <footer>
           <div class="copyright">Coming soon &copy; 2016 | CHECKPOINT Powered by <a href="http://www.matoot.com" target="_blank" title="Visit Matoot Web Site">MATOOT</a></div>
       </footer>
-
+<!-- JS
+    ================================================== -->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
