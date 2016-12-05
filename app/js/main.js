@@ -1,16 +1,5 @@
 $( function( ) {
-    'use strict';
-    
-    var color = {gray:0};
-    var image = $("#wanted-monkey")[0];
-    
-    
-    TweenMax.to(color, 2, {gray:1, onUpdate:applyColor, onUpdateParams:[image], repeat:50, yoyo:true, repeatDelay:0.2})
-    
-    function applyColor(element) {
-        //apply filter yourself
-        element.style["-webkit-filter"] = "grayscale(" + color.gray + ")"
-    }
+   'use strict';
 
     $.fn.serializeFormJSON = function () {
 
